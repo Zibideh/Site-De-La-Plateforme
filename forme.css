@@ -10,8 +10,26 @@
 
     .footer {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
+
+
+
+       weith: 70%;
+
+       height: 40%;
+      }
+
+      .images {
+        display: flex;
+      }
+
+      .img-container {
+        width: 50%;
+      }
+
+     .inline{
+        width: 100%;
     }
 
     h1 {
@@ -103,3 +121,42 @@
         width: 80%;
       }
     }
+
+    .container-links {
+        display: flex;
+        justify-content:space-evenly;
+        align-items:center;
+    }
+
+   .imge{
+     width: 50%;
+     height: 30%;
+
+
+   }
+
+
+
+
+
+
+
+   .footer-column{
+    display:flex;
+    justify-content:space-between;
+   }
+
+    .social-media {
+        width: 20%;
+
+    }
+
+    .icon {
+        width: 15%
+    }
+
+  .et_pb_section.et_pb_button_1_tb_footer{
+
+       align-content:space-between;
+
+  }
